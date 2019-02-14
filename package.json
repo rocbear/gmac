@@ -1,6 +1,6 @@
 {
   "name": "gmac",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Scaffolding for the Component era",
   "main": "index.js",
   "scripts": {
