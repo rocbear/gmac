@@ -48,19 +48,19 @@ By configuring your project settings, this could be shortened to:
 
 **⚠️ Benchmarks are not yet ready, this section outlines what we hope for them to be in the near future.**
 
-In order to make sure that **gmac** is *actually helpful*, we measure the ease-of-use and speed by testing each new major version in real world scenarios. The test criteria are as follows:
+In order to make sure that **gmac** is *actually helpful*, we will measure the ease-of-use and speed by testing each new major version in real world scenarios. The test criteria are as follows:
 
 ```
   Metric            | Target
 =======================================
 | Sample size       | 10              |
 |-------------------------------------|
-| Manual creations  | 5               |
+| Full ROI          | 5               |
 |-------------------------------------|
-| gmac creations    | 1               |
+| Time improvment   | 75%             |
 |-------------------------------------|
 | Pass ratio        | 100%            |
 =======================================
 ```
 
-In short, this means that in order for us to consider **gmac** to be "actually helpful", the following needs to be true: For **10** random users, the time taken to install, set up and use **gmac** to create **1** component skeleton should not exceed the time taken to create **5** component skeletons manually.
+In short, this means that in order for us to consider **gmac** to be "actually helpful", the following needs to be true: For **10** random users, the time taken to install, set up and use **gmac** to create **5** component skeletons should be faster than the time taken to create the same **5** skeletons, **100%** of the time. Additionally, assuming that **gmac** has been set up, the average improvement in time-to-create should be not less than **75%** over **5** creations.
