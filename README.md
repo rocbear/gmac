@@ -4,7 +4,9 @@
 
 - Support multiple component frameworks and styling tools (React, Vue, Styled Component, SCSS, etc.)
 - Extensible through plugins and templates
-- Backward compatability for all templates, always (even with major version changes)
+- Easy to use and fast
+  - Benchmark standards
+- Secure
 
 ## Getting Started
 
@@ -37,3 +39,24 @@ By configuring your project settings, this could be shortened to:
 > `gmac MyComponent`
 
 ## Usage
+
+## Benchmark
+
+**⚠️ Benchmarks are not yet ready, this section outlines what we hope for them to be in the near future.**
+
+In order to make sure that **gmac** is *actually helpful*, we measure the ease-of-use and speed by testing each new major version in real world scenarios. The test criteria are as follows:
+
+```
+  Metric            | Target
+=======================================
+| Sample size       | 10              |
+|-------------------------------------|
+| Manual creations  | 5               |
+|-------------------------------------|
+| gmac creations    | 1               |
+|-------------------------------------|
+| Pass ratio        | 100%            |
+=======================================
+```
+
+In short, this means that in order for us to consider **gmac** to be "actually helpful", the following needs to be true: For **10** random users, the time taken to install, set up and use **gmac** to create **1** component skeleton should not exceed the time taken to create **5** component skeletons manually.
