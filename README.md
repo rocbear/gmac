@@ -8,6 +8,10 @@
   - Benchmark standards
 - Secure
 
+
+> *Note on the scope of work:*
+**gmac** is an opinionated library in that it assumes the presence of two concepts, **components** and **styles**, with no plans to break away from these for the forseeable future.
+
 ## Getting Started
 
 ### Install
