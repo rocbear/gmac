@@ -1,7 +1,5 @@
 # gmac (Give Me a Component)
 
-_Scaffolding for the Component era_
-
 **gmac** aims to save time by making the repetitive task of intializing new Components easier and faster. The main goals are:
 
 - Support multiple component frameworks and styling tools (React, Vue, Styled Component, SCSS, etc.)
