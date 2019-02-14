@@ -28,7 +28,7 @@ By default, gmac will use `gmac-react-sass` as the template. In order to change 
 }
 ```
 
-You can read about other options in the [usage section](##usage).
+You can read about other options in the [usage section](#usage).
 
 ### Run
 
