@@ -19,5 +19,9 @@
     "boilerplate"
   ],
   "author": "Ross Berkland",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "pkg-dir": "^3.0.0"
+  }
 }
